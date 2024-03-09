@@ -1,0 +1,28 @@
+21:01:38 INFO  : updated workspace path: 
+21:01:38 INFO  : updated workspace path: 
+21:01:40 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc5902632995248260887
+21:01:40 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc360900262648061337 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc5902632995248260887\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:01:40 INFO  : Embedded Template List generated successfully
+21:01:41 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:01:42 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc6559872569769635577
+21:01:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc15181729512750275271 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc6559872569769635577\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:01:42 INFO  : Embedded Template List generated successfully
+21:01:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:01:43 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc10979877975078836536
+21:01:43 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc17284975044497475229 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc10979877975078836536\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:01:44 INFO  : Embedded Template List generated successfully
+21:06:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:16:56 INFO  : updated workspace path: 
+17:16:56 INFO  : updated workspace path: 
+17:16:58 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc3604707026517453605
+17:16:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc10001243047978329165 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc3604707026517453605\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:16:58 INFO  : Embedded Template List generated successfully
+17:16:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:17:00 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc3158593391293489926
+17:17:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc7611859955294994892 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc3158593391293489926\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:17:00 INFO  : Embedded Template List generated successfully
+17:17:00 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:17:02 INFO  : Successfully created repository data at C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc16401106274095631654
+17:17:02 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc13148513006923725827 -r C:\Users\lrluc\AppData\Local\Temp\rigel_lopper_lrluc16401106274095631654\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+17:17:02 INFO  : Embedded Template List generated successfully
+17:20:02 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st  C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat

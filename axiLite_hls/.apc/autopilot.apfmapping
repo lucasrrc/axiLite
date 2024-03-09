@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="axil_macc.cpp" path="C:\Users\lrluc\Documents\Academia\hardwareDescription\examples\axiLite\axiLite_hls\source\axil_macc.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_axil_macc.cpp" path="C:\Users\lrluc\Documents\Academia\hardwareDescription\examples\axiLite\axiLite_hls\testbench\tb_axil_macc.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

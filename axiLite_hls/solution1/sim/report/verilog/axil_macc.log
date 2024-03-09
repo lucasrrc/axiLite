@@ -1,0 +1,168 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vitis_HLS/2023.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling apatb_axil_macc.cpp
+   Compiling axil_macc.cpp_pre.cpp.tb.cpp
+   Compiling tb_axil_macc.cpp_pre.cpp.tb.cpp
+   Compiling apatb_axil_macc_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+  -87    86   -84  -125    59   -33   -52  -112    62   109 
+  -21   107    41   -95   111   -33   124   108    84   -47 
+   sw dot product: 8639
+sw/hw dot product: 8639
+
+C:\Users\lrluc\Documents\Academia\hardwareDescription\examples\axiLite\axiLite_hls\solution1\sim\verilog>set PATH= 
+
+C:\Users\lrluc\Documents\Academia\hardwareDescription\examples\axiLite\axiLite_hls\solution1\sim\verilog>call C:/Xilinx/Vivado/2023.2/bin/xelab xil_defaultlib.apatb_axil_macc_top glbl -Oenable_linking_all_libraries  -prj axil_macc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib "ieee_proposed=./ieee_proposed" -s axil_macc -debug all 
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_axil_macc_top glbl -Oenable_linking_all_libraries -prj axil_macc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_16 -L floating_point_v7_0_21 --lib ieee_proposed=./ieee_proposed -s axil_macc -debug all 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/AESL_axi_slave_BUS1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_BUS1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/axil_macc.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_axil_macc_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/axil_macc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/axil_macc_BUS1_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc_BUS1_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/axil_macc_mul_32s_32s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axil_macc_mul_32s_32s_32_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.axil_macc_BUS1_s_axi
+Compiling module xil_defaultlib.axil_macc_mul_32s_32s_32_1_1(NUM...
+Compiling module xil_defaultlib.axil_macc
+Compiling module xil_defaultlib.AESL_axi_slave_BUS1
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_axil_macc_top
+Compiling module work.glbl
+Built simulation snapshot axil_macc
+ECHO is off.
+ECHO is off.
+
+****** xsim v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/axil_macc/xsim_script.tcl
+# xsim {axil_macc} -view {{axil_macc_dataflow_ana.wcfg}} -tclbatch {axil_macc.tcl} -protoinst {axil_macc.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file axil_macc.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_axil_macc_top/AESL_inst_axil_macc//AESL_inst_axil_macc_activity
+Time resolution is 1 ps
+open_wave_config axil_macc_dataflow_ana.wcfg
+source axil_macc.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set a__b__c__instr__return_group [add_wave_group a__b__c__instr__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/interrupt -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_BRESP -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_BREADY -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_BVALID -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_RRESP -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_RDATA -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_RREADY -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_RVALID -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_ARREADY -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_ARVALID -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_ARADDR -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_WSTRB -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_WDATA -into $a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_WREADY -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_WVALID -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_AWREADY -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_AWVALID -into $a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/s_axi_BUS1_AWADDR -into $a__b__c__instr__return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_done -into $blocksiggroup
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_idle -into $blocksiggroup
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_ready -into $blocksiggroup
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_start -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_axil_macc_top/AESL_inst_axil_macc/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_axil_macc_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_axil_macc_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_axil_macc_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_axil_macc_top/LENGTH_a -into $tb_portdepth_group -radix hex
+## add_wave /apatb_axil_macc_top/LENGTH_b -into $tb_portdepth_group -radix hex
+## add_wave /apatb_axil_macc_top/LENGTH_c -into $tb_portdepth_group -radix hex
+## add_wave /apatb_axil_macc_top/LENGTH_instr -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_a__b__c__instr__return_group [add_wave_group a__b__c__instr__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_axil_macc_top/BUS1_INTERRUPT -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_BRESP -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_BREADY -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_BVALID -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_RRESP -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_RDATA -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_RREADY -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_RVALID -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_ARREADY -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_ARVALID -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_ARADDR -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_WSTRB -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_WDATA -into $tb_a__b__c__instr__return_group -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_WREADY -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_WVALID -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_AWREADY -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_AWVALID -into $tb_a__b__c__instr__return_group -color #ffff00 -radix hex
+## add_wave /apatb_axil_macc_top/BUS1_AWADDR -into $tb_a__b__c__instr__return_group -radix hex
+## save_wave_config axil_macc.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [n/a] @ "125000"
+// RTL Simulation : 1 / 10 [n/a] @ "725000"
+// RTL Simulation : 2 / 10 [n/a] @ "1315000"
+// RTL Simulation : 3 / 10 [n/a] @ "1905000"
+// RTL Simulation : 4 / 10 [n/a] @ "2495000"
+// RTL Simulation : 5 / 10 [n/a] @ "3085000"
+// RTL Simulation : 6 / 10 [n/a] @ "3675000"
+// RTL Simulation : 7 / 10 [n/a] @ "4265000"
+// RTL Simulation : 8 / 10 [n/a] @ "4855000"
+// RTL Simulation : 9 / 10 [n/a] @ "5445000"
+// RTL Simulation : 10 / 10 [n/a] @ "6035000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 6095 ns : File "C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls/solution1/sim/verilog/axil_macc.autotb.v" Line 289
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Mar  5 14:29:19 2024...
+  -87    86   -84  -125    59   -33   -52  -112    62   109 
+  -21   107    41   -95   111   -33   124   108    84   -47 
+   sw dot product: 8639
+sw/hw dot product: 8639
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***

@@ -1,0 +1,298 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 472.750 ; gain = 177.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_hls'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.cache/ip 
+Command: synth_design -top design_1_wrapper -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7064
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2037.961 ; gain = 387.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:18]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1745' bound to instance 'design_1_i' of component 'design_1' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1752]
+INFO: [Synth 8-3491] module 'design_1_axil_macc_0_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_axil_macc_0_0_stub.vhdl:6' bound to instance 'axil_macc_0' of component 'design_1_axil_macc_0_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1982]
+INFO: [Synth 8-638] synthesizing module 'design_1_axil_macc_0_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_axil_macc_0_0_stub.vhdl:32]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps8_0_axi_periph_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1222]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_QJIMLI' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_QJIMLI' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:58]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1A7ZMW4' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:181]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_ds_0_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:474]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_ds_0_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_pc_0_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:553]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_pc_0_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1A7ZMW4' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:181]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_KGUFR9' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:682]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_1' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_ds_1_stub.vhdl:6' bound to instance 'auto_ds' of component 'design_1_auto_ds_1' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:975]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_1' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_ds_1_stub.vhdl:88]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_1' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_pc_1_stub.vhdl:6' bound to instance 'auto_pc' of component 'design_1_auto_pc_1' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1054]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_auto_pc_1_stub.vhdl:68]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_KGUFR9' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:682]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_xbar_0_stub.vhdl:6' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1678]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_xbar_0_stub.vhdl:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps8_0_axi_periph_0' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1222]
+INFO: [Synth 8-3491] module 'design_1_rst_ps8_0_100M_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_rst_ps8_0_100M_0_stub.vhdl:6' bound to instance 'rst_ps8_0_100M' of component 'design_1_rst_ps8_0_100M_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:2107]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps8_0_100M_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_rst_ps8_0_100M_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'design_1_zynq_ultra_ps_e_0_0' declared at 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:6' bound to instance 'zynq_ultra_ps_e_0' of component 'design_1_zynq_ultra_ps_e_0_0' [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:2120]
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/.Xil/Vivado-14968-lycaPad/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:95]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/synth/design_1.vhd:1752]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:18]
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2155.285 ; gain = 504.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2173.211 ; gain = 522.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2173.211 ; gain = 522.562
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2173.211 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0/design_1_axil_macc_0_0_in_context.xdc] for cell 'design_1_i/axil_macc_0'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_axil_macc_0_0/design_1_axil_macc_0_0/design_1_axil_macc_0_0_in_context.xdc] for cell 'design_1_i/axil_macc_0'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_100M'
+Finished Parsing XDC File [c:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_100M'
+Parsing XDC File [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2205.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+O sistema n∆o conseguiu localizar o caminho especificado.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2205.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2205.855 ; gain = 555.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2205.855 ; gain = 555.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axil_macc_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_ps8_0_100M. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2205.855 ; gain = 555.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2205.855 ; gain = 555.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2205.855 ; gain = 555.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 2691.164 ; gain = 1040.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 2691.164 ; gain = 1040.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 2701.938 ; gain = 1051.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |design_1_xbar_0              |         1|
+|2     |design_1_auto_ds_0           |         1|
+|3     |design_1_auto_pc_0           |         1|
+|4     |design_1_auto_ds_1           |         1|
+|5     |design_1_auto_pc_1           |         1|
+|6     |design_1_axil_macc_0_0       |         1|
+|7     |design_1_rst_ps8_0_100M_0    |         1|
+|8     |design_1_zynq_ultra_ps_e_0_0 |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------+------+
+|      |Cell                              |Count |
++------+----------------------------------+------+
+|1     |design_1_auto_ds_0_bbox           |     1|
+|2     |design_1_auto_ds_1_bbox           |     1|
+|3     |design_1_auto_pc_0_bbox           |     1|
+|4     |design_1_auto_pc_1_bbox           |     1|
+|5     |design_1_axil_macc_0_0_bbox       |     1|
+|6     |design_1_rst_ps8_0_100M_0_bbox    |     1|
+|7     |design_1_xbar_0_bbox              |     1|
+|8     |design_1_zynq_ultra_ps_e_0_0_bbox |     1|
++------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 2715.754 ; gain = 1032.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 2715.754 ; gain = 1065.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2715.754 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2769.680 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+O sistema n∆o conseguiu localizar o caminho especificado.
+Synth Design complete | Checksum: f1e78117
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2774.645 ; gain = 2250.984
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lrluc/Documents/Academia/hardwareDescription/examples/axiLite/axiLite_vivado/axiLite_vivado.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  5 14:45:34 2024...

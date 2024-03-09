@@ -1,0 +1,52 @@
+
+Host Name:                 LYCAPAD
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22631 N/A Build 22631
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          lrlucasraimundo@gmail.com
+Registered Organization:   
+Product ID:                00330-53837-65091-AAOEM
+Original Install Date:     03/01/2024, 21:07:06
+System Boot Time:          27/02/2024, 15:41:54
+System Manufacturer:       LENOVO
+System Model:              82K1
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 140 Stepping 2 GenuineIntel ~3187 Mhz
+BIOS Version:              LENOVO H4CN29WW(V1.14), 17/04/2023
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             pt;Portuguˆs (Portugal)
+Input Locale:              pt;Portuguˆs (Portugal)
+Time Zone:                 (UTC+00:00) Dublin, Edimburgo, Lisboa, Londres
+Total Physical Memory:     16ÿ167 MB
+Available Physical Memory: 8ÿ460 MB
+Virtual Memory: Max Size:  18ÿ507 MB
+Virtual Memory: Available: 6ÿ883 MB
+Virtual Memory: In Use:    11ÿ624 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\LYCAPAD
+Hotfix(s):                 5 Hotfix(s) Installed.
+                           [01]: KB5034467
+                           [02]: KB5027397
+                           [03]: KB5033055
+                           [04]: KB5034765
+                           [05]: KB5034225
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Intel(R) Wi-Fi 6 AX201 160MHz
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.1.1
+                                 IP address(es)
+                                 [01]: 192.168.1.155
+                                 [02]: fe80::c55b:a738:3c7c:f203
+                                 [03]: 2001:818:e219:4100:11dd:e886:fe2b:2b8a
+                                 [04]: 2001:818:e219:4100:a3b8:bd4:cfa2:cf50
+                           [02]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
